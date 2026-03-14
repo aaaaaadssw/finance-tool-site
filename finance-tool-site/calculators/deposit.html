@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Deposit Calculator</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header>
+<h1>Deposit Calculator</h1>
+<nav>
+<a href="../index.html">Home</a>
+<a href="../calculators/calculator11.html">Other Calculators</a>
+<a href="../guides/guide11.html">Guides</a>
+</nav>
+</header>
+
+<div class="calculator-container">
+<!-- ADSENSE_AD_HERE -->
+<p>Calculate interest for fixed or recurring deposits.</p>
+Deposit Amount: <input id="depositAmount"><br>
+Interest Rate (%): <input id="depositRate"><br>
+Time (Years): <input id="depositYears"><br>
+Compounding Times/Year: <input id="depositTimes" value="1"><br><br>
+<button onclick="depositCalc()">Calculate</button>
+<h2 id="result"></h2>
+</div>
+
+<footer>
+<a href="../about.html">About</a> | 
+<a href="../privacy.html">Privacy</a> | 
+<a href="../terms.html">Terms</a> | 
+<a href="../contact.html">Contact</a>
+</footer>
+
+<script src="../js/calculator.js"></script>
+</body>
+</html>

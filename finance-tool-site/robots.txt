@@ -1,0 +1,20 @@
+# robots.txt for 在线计算工具站
+# 允许所有搜索引擎抓取主要页面和资源
+
+User-agent: *
+# 允许抓取所有 HTML 页面、CSS、JS
+Allow: /
+
+# 阻止抓取临时文件夹或测试文件夹
+Disallow: /tmp/
+Disallow: /private/
+Disallow: /node_modules/
+Disallow: /backup/
+
+# 阻止抓取某些不必要的文件类型（可选）
+Disallow: /*.log$
+Disallow: /*.zip$
+Disallow: /*.sql$
+
+# 网站地图（帮助搜索引擎快速索引）
+Sitemap: https://financecalculator.top
